@@ -14,12 +14,14 @@ let age = 18
 let isLoggedIn = false
 let state;
 
+/* premitive datatypes & non-predefined -> array and objects*/
+
 // number => 2 to power 53
-// bigint
+// bigint  => for big digit values e.g-for big websites like reddit
 // string => ""
 // boolean => true/false
-// null => standalone value
-// undefined => 
+// null => standalone value  iska type ek object hai
+// undefined => when value is not assigned
 // symbol => unique
 
 
@@ -27,3 +29,17 @@ let state;
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
+
+
+
+/*
+
+In the earlier js classes,arrow function,modules all these not exist...to save old code they introduce
+"use strict" then the file treat as new version by environment but in current we don't mention need these..
+
+*/
+
+/*
+  Js Original  documentation is on (tc39.es/ecma262/)ECMA SCript for js standards site but we prefer MDN documentation
+
+*/
