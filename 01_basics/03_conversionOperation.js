@@ -33,7 +33,7 @@ let stringNumber = String(someNumber)
 
 // *********************** Operations ***********************
 
-let value = 3
+let value = 786
 let negValue = -value
 // console.log(negValue);
 
