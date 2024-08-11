@@ -17,10 +17,10 @@ let state;
 /* premitive datatypes & non-predefined -> array and objects*/
 
 // number => 2 to power 53
-// bigint  => for big digit values e.g-for big websites like reddit
+// bigint  => for big digit values e.g-for big websites like reddit ,e.g- 45555n
 // string => ""
 // boolean => true/false
-// null => standalone value  iska type ek object hai
+// null => standalone value  aur iska type ek object hai
 // undefined => when value is not assigned
 // symbol => unique
 
