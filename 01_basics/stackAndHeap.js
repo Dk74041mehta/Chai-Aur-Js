@@ -5,12 +5,14 @@ const { log } = require("console");
 // 1)stack -> premitive datatypes  - we get a copy of variable
 
 // let myName="Dilip"
-// console.log(myName);
 
 
 // let yourName=myName
 // yourName="kumar"
+// myName="light"
 // console.log(yourName);
+// console.log(myName);
+
 
 
 
@@ -24,14 +26,16 @@ let object1={
     name:"light"
 }
 
+// console.log(object1);
 
 
 let object2=object1
-object1.key="Mehta"
+// console.log(object2);
+
 
 object2.name="Dilip"
 
 console.log(object2.name);
-console.log(object1.key);
+console.log(object1.name);
 
 
